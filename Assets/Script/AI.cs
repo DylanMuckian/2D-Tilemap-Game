@@ -1,7 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI; 
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 
 public class AI : MonoBehaviour
 {
@@ -38,6 +40,8 @@ public class AI : MonoBehaviour
             sbr.size -= 0.1f;
             //call the animator and set the property for attack true
             animator.SetBool("IsAttacking", true);
+
+            SceneManager.LoadScene("LoseScreen");
         }
     }
     private void OnCollisionExit2D(Collision2D col)
