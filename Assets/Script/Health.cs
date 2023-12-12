@@ -1,6 +1,7 @@
 //using System.Collections;
 //using System.Collections.Generic;
 //using UnityEngine;
+//using UnityEngine.SceneManagement;
 
 //public class Health : MonoBehaviour
 //{
@@ -18,8 +19,10 @@
 //    {
 //        currentHealth -= amount;
 
-//        if (currentHealth <= 0)
-//            //We're dead
-//            //Show Game Over Screen
+//        if (currentHealth <= 0);
+//        {
+//            SceneManager.LoadScene("LoseScreen");
+//        }  
+            
 //    }
 //}

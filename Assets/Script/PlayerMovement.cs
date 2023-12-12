@@ -11,9 +11,9 @@ public class PlayerMovement : MonoBehaviour{
 
     private Vector2 movement;
     private Rigidbody2D rb;
-    private Animator animator;
+    private Animator animator;     
 
-    public bool _isFacingRight = true;
+    bool _isFacingRight = true;
     float horizontalInput;
 
     private void Awake()

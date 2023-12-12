@@ -22,11 +22,4 @@ public class RetryGame : MonoBehaviour
     {
         SceneManager.LoadScene("Scene-LevelDemo03");
     }
-
-
-
-
-
-
-
 }
